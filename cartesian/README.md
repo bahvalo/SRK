@@ -31,7 +31,7 @@ This code relies on
 Just take all .cpp files to the IDE you use and specify pathes to external
 libraries. Or, for Linux, use the command
 
-g++ -I <path_to_hypre>/include `ls *.cpp` <path>/libHYPRE.a <path>/libfftw3.a -lgomp
+g++ -I <path_to_hypre>/include \`ls *.cpp\` <path>/libHYPRE.a <path>/libfftw3.a -lgomp
 
 
 ## License
