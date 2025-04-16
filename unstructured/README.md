@@ -19,10 +19,10 @@ This code requires MFEM compiled in the parallel mode, which requires MPI, HYPRE
 
 ## File structure
 
-navier_solver.cpp, navier_solver.hpp -- the Navier-Stokes solver provided by MFEM
-asrk.h, srk.cpp -- code responsible for SRK time integration
-main.cpp -- 2D Taylor-Green vortex test
-mesh.msh -- trianglular mesh used in the test (GMSH format)
+* navier_solver.cpp, navier_solver.hpp -- the Navier-Stokes solver provided by MFEM
+* asrk.h, srk.cpp -- code responsible for SRK time integration
+* main.cpp -- 2D Taylor-Green vortex test
+* mesh.msh -- trianglular mesh used in the test (GMSH format)
 
 ## License
 
